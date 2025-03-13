@@ -22,10 +22,10 @@ jobs:
           persist-credentials: false
 
       - name: Setup Node.js 🔧
-        uses: actions/setup-node@v3.8.1
+        uses: actions/setup-node@v4
         with:
-          node-version: 18.x
-
+          node-version: '20.17.0'
+          cache : 'npm'
       - name: Update npm 🚀
         run: npm install -g npm@latest
 
