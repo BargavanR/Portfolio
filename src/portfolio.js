@@ -66,84 +66,84 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-   /* //{
-     // skillName: "html-5",
-      //fontAwesomeClassname: "fa-solid fa-user-robot"
-    //},
+    /* //{
+      // skillName: "html-5",
+       //fontAwesomeClassname: "fa-solid fa-user-robot"
+     //},
+     {
+       skillName: "css3",
+       fontAwesomeClassname: "fab fa-css3-alt"
+     },
+     {
+       skillName: "sass",
+       fontAwesomeClassname: "fab fa-sass"
+     },
+     {
+       skillName: "JavaScript",
+       fontAwesomeClassname: "fab fa-js"
+     },
+     {
+       skillName: "reactjs",
+       fontAwesomeClassname: "fab fa-react"
+     },
+     {
+       skillName: "nodejs",
+       fontAwesomeClassname: "fab fa-node"
+     },
+     {
+       skillName: "swift",
+       fontAwesomeClassname: "fab fa-swift"
+     },
+     {
+       skillName: "npm",
+       fontAwesomeClassname: "fab fa-npm"
+     },
+     {
+       skillName: "sql-database",
+       fontAwesomeClassname: "fas fa-database"
+     },
+     {
+       skillName: "aws",
+       fontAwesomeClassname: "fab fa-aws"
+     },
+     {
+       skillName: "firebase",
+       fontAwesomeClassname: "fas fa-fire"
+     },
+     {
+       skillName: "python",
+       fontAwesomeClassname: "fab fa-python"
+     },
+     {
+       skillName: "docker",
+       fontAwesomeClassname: "fab fa-docker"
+     }
+   */
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "C",
+      fontAwesomeClassname: "fab fa-c"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  */
-  {
-    skillName: "C",
-    fontAwesomeClassname: "fab fa-c"
-  },
-  {
-    skillName: "Python",
-    fontAwesomeClassname: "fab fa-python"
-  },
-  {
-    skillName: "ROS",
-    fontAwesomeClassname: "fab fa-robot"
-  },
-  {
-    skillName: "MATLAB",
-    fontAwesomeClassname: "fab fa-matlab"
-  },
-  {
-    skillName: "Computer aided design",
-    fontAwesomeClassname: "fab fa-solid fa-user-robot"
-  },
-     
-    ],
+      skillName: "ROS",
+      fontAwesomeClassname: "fab fa-robot"
+    },
+    {
+      skillName: "MATLAB",
+      fontAwesomeClassname: "fab fa-matlab"
+    },
+    {
+      skillName: "Computer aided design",
+      fontAwesomeClassname: "fab fa-solid fa-user-robot"
+    },
+
+  ],
   display: true // Set false to hide this section, defaults to true
 };
-    
+
 // Education Section
 
 const educationInfo = {
@@ -316,7 +316,7 @@ const achievementSection = {
       image: require("./assets/images/pwaLogo.webp"),
       imageAlt: "PWA Logo",
       footerLink: [
-        {name: "Certification", url: ""},
+        { name: "Certification", url: "" },
         {
           name: "Final Project",
           url: "https://pakistan-olx-1.firebaseapp.com/"
@@ -398,8 +398,8 @@ const contactInfo = {
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91-6374289565",
   email_address: "bargavanroboticsengineer@gmail.com",
-  display : true // Set false to hide this section, defaults to true
-};  
+  display: true // Set false to hide this section, defaults to true
+};
 
 // Twitter Section
 
