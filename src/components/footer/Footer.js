@@ -13,7 +13,7 @@ export default function Footer() {
           {emoji("Bye Bye From Bargav 👋")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Theme For Bargavan with the help of {" "}
+          Thank you for visiting  {" "}
           <a
             href="https://github.com/BargavanR"
             target="_blank"
