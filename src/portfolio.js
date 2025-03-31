@@ -51,23 +51,23 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Skills !!",
-subTitle : "I am proficient in these key skills !!",
-skills: [
-  emoji("Programming & Development"),
-  emoji("⚡Python, C/Embedded C, Object-Oriented Programming (OOP), Robot Operating System (ROS2)."),
-
-  emoji("Robotics & Automation"),
-  emoji("⚡PLC Programming (Ladder Logic), SLAM (Simultaneous Localization and Mapping), Computer Vision (OpenCV)."),
-
-  emoji("Simulation & Design"),
-  emoji("⚡Gazebo (Classic & Ignition), RViz, SolidWorks (Modeling & Simulation), PCB Design (EasyEDA, KiCAD)."),
-
-  emoji("Artificial Intelligence & Machine Learning"),
-  emoji("⚡Machine Learning (Supervised, Unsupervised, Reinforcement Learning)."),
-
-  emoji("Operating Systems"),
-  emoji("⚡Linux (Primary), Windows (Secondary)."),
-],
+  subTitle : "Key skills I specialize in",
+  skills: [
+    emoji("Programming & Development"),
+    emoji("⚡ Python, Embedded C, Object-Oriented Programming (OOP), ROS2"),
+    
+    emoji("Robotics & Automation"),
+    emoji("⚡ PLC Programming, SLAM, Computer Vision (OpenCV)"),
+    
+    emoji("Simulation & Design"),
+    emoji("⚡ Gazebo, RViz, SolidWorks, PCB Design (EasyEDA, KiCAD)"),
+    
+    emoji("Artificial Intelligence"),
+    emoji("⚡ Machine Learning (Supervised, Unsupervised, RL)"),
+    
+    emoji("Operating Systems"),
+    emoji("⚡ Linux (Primary), Windows (Secondary)"),
+  ],  
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
