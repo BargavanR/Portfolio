@@ -19,6 +19,7 @@ import SplashScreen from "./splashScreen/SplashScreen";
 import {splashScreen} from "../portfolio";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
+import GithubProfileCard from "../components/githubProfileCard/GithubProfileCard";
 import "./Main.scss";
 
 const Main = () => {
@@ -64,6 +65,7 @@ const Main = () => {
             <Twitter />
             <Podcast />
             <Profile />
+            <GithubProfileCard/>
             <Footer />
             <ScrollToTopButton />
           </>
