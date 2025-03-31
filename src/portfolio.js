@@ -51,34 +51,34 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Skills !!",
-  subTitle: "Programming",
-  skills: [
+  subTitle : "I am aware of these skills !!",
+  skills :[
+    emoji("Programming"),
     emoji(
       "⚡Python, C/Embedded C, Object-Oriented Programming (OOP), Robot Operating System (ROS2),PLC Programming (Ladder Logic), Computer Vision (OpenCV), MATLAB Programming, SLAM (SimultaneousLocalization and Mapping)."
     ),
-  ],
-  subTitle: "Simulation Tools",
-  skills: [
+    emoji("Simulation Tools"),
     emoji(
       "⚡Gazebo Classic & Ignition Gazebo, RViz, Simulink, Tinkercad."
     ),
-  ],
-  subTitle: "Design & Analysis Tools",
-  skills: [
+    emoji(
+      "Design & Analysis Tools"
+    ),
     emoji(
       "⚡SolidWorks (Modeling & Simulation), PCB Design (EasyEDA, KiCAD), Human-MachineInterface in PLC (HMI) Design ."
     ),
-  ],
-  subTitle: "Artificial Intelligence",
-  skills: [
+    emoji(
+      "Artificial Intelligence"
+    ),
     emoji(
       "⚡Machine Learning (Supervised, Unsupervised, Reinforcement Learning)."
     ),
-  ],
-  subTitle : "Operating Systems:",
-  skills :[
+    emoji(
+      "Operating Systems"
+    ),
     emoji("⚡Linux (Primary)."),
     emoji("⚡Windows (Secondary)."),
+    
   ],
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -108,19 +108,19 @@ const educationInfo = {
       logo: require("./assets/images/mitlogo.png"),
       subHeader: "Bachelor of Engineering in Robotics and Automation",
       duration: "August 2023 - july 2027",
-      desc: "Participated in the Events and published 1 paper and 2 patents.",
-      descBullets: [
-        "Experience in Automation",
-        "ROS developer for MITRA"
-      ]
+      //desc: "Participated in the Events and published 1 paper and 2 patents.",
+      //descBullets: [
+      //  "Experience in Automation",
+      //  "ROS developer for MITRA"
+     // ]
     },
     {
       schoolName: "Annamalaiyaar matriculation higher secondary school",
       logo: require("./assets/images/Armhsslogo.png"),
       subHeader: "High School",
       duration: "july 2021 - May 2023",
-      desc: "Ranked top 1 in the Cutoff , Best outgoing student in the school",
-      descBullets: ["Cricketer", "Badmitton player"]
+      //desc: "Ranked top 1 in the Cutoff , Best outgoing student in the school",
+      //descBullets: ["Cricketer", "Badmitton player"]
     }
   ]
 };
@@ -150,6 +150,17 @@ const techStack = {
 
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
+  experience: [
+    {
+      role: "Programming and Electronics Team Member",
+      company: "MITRA",
+      companylogo: require("./assets/images/mitra.png"),
+      date: "Sep 2024 - Present",
+      desc: "Madras Institute of Technology Robotics Association",
+      descBullets: [
+      ]
+    }
+  ],
   experience: [
     {
       role: "Machine Learning intern",
@@ -242,9 +253,9 @@ const achievementSection = {
       image: require("./assets/images/nss.webp"),
       imageAlt: "NSS Logo",
       footerLink: [
-        {
-         // name: "",
-          //url: ""
+       {
+          name: "Instagram",
+          url: "https://www.instagram.com/nss_mit/"
         }
       ]
     },
@@ -256,12 +267,11 @@ const achievementSection = {
       imageAlt: "MIT Variety Team Logo",
       footerLink: [
         {
-          //name: "",
-          //url: ""
+          name: "Instagram",
+          url: "https://www.instagram.com/mit_varietyteam/"
         }
       ]
     },
-
     {
       title: "Indutrial Automation with PLC & HMI ",
       subtitle: "Completed Certifcation from Siemens for Indutrial Automation with PLC & HMI",
@@ -269,10 +279,6 @@ const achievementSection = {
       imageAlt: "Siemens Logo",
       footerLink: [
         { name: "Certification", url: "https://www.linkedin.com/posts/bargavan_industrialautomation-plc-hmi-activity-7243337842087657472-ezX-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEaAYFgBmKXW9VIKxA-wGM-4-VQsamq2fYE" },
-        {
-          name: "Final Project",
-          url: ""
-        }
       ]
     },
     {
@@ -282,10 +288,6 @@ const achievementSection = {
       imageAlt: "Cousera Logo",
       footerLink: [
         { name: "Certification", url: "https://www.coursera.org/account/accomplishments/verify/BG2MPGE7IKFC?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" },
-        {
-          //name: "Final Project",
-          //url: ""
-        }
       ]
     },
     {
@@ -295,10 +297,6 @@ const achievementSection = {
       imageAlt: "Cousera Logo",
       footerLink: [
         { name: "Certification", url: "" },
-        {
-          //name: "Final Project",
-          //url: ""
-        }
       ]
     },
   ],
