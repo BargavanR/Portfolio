@@ -340,14 +340,14 @@ const contactInfo = {
     "Discuss a project or just want to say hi? My Inbox is open for all.",
    //number: "+91-6374289565",
   //email_address: "bargavanroboticsengineer@gmail.com",
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "Bargavan143", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
