@@ -51,35 +51,23 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Skills !!",
-  subTitle : "I am aware of these skills !!",
-  skills :[
-    emoji("Programming"),
-    emoji(
-      "⚡Python, C/Embedded C, Object-Oriented Programming (OOP), Robot Operating System (ROS2),PLC Programming (Ladder Logic), Computer Vision (OpenCV), MATLAB Programming, SLAM (SimultaneousLocalization and Mapping)."
-    ),
-    emoji("Simulation Tools"),
-    emoji(
-      "⚡Gazebo Classic & Ignition Gazebo, RViz, Simulink, Tinkercad."
-    ),
-    emoji(
-      "Design & Analysis Tools"
-    ),
-    emoji(
-      "⚡SolidWorks (Modeling & Simulation), PCB Design (EasyEDA, KiCAD), Human-MachineInterface in PLC (HMI) Design ."
-    ),
-    emoji(
-      "Artificial Intelligence"
-    ),
-    emoji(
-      "⚡Machine Learning (Supervised, Unsupervised, Reinforcement Learning)."
-    ),
-    emoji(
-      "Operating Systems"
-    ),
-    emoji("⚡Linux (Primary)."),
-    emoji("⚡Windows (Secondary)."),
-    
-  ],
+subTitle : "I am proficient in these key skills !!",
+skills: [
+  emoji("Programming & Development"),
+  emoji("⚡Python, C/Embedded C, Object-Oriented Programming (OOP), Robot Operating System (ROS2)."),
+
+  emoji("Robotics & Automation"),
+  emoji("⚡PLC Programming (Ladder Logic), SLAM (Simultaneous Localization and Mapping), Computer Vision (OpenCV)."),
+
+  emoji("Simulation & Design"),
+  emoji("⚡Gazebo (Classic & Ignition), RViz, SolidWorks (Modeling & Simulation), PCB Design (EasyEDA, KiCAD)."),
+
+  emoji("Artificial Intelligence & Machine Learning"),
+  emoji("⚡Machine Learning (Supervised, Unsupervised, Reinforcement Learning)."),
+
+  emoji("Operating Systems"),
+  emoji("⚡Linux (Primary), Windows (Secondary)."),
+],
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
@@ -159,9 +147,7 @@ const workExperiences = {
       desc: "Madras Institute of Technology Robotics Association",
       descBullets: [
       ]
-    }
-  ],
-  experience: [
+    },
     {
       role: "Machine Learning intern",
       company: "Unified mentor",
