@@ -37,7 +37,7 @@ const Main = () => {
         clearTimeout(splashTimer);
       };
     }
-  }, []);
+  }, []); 
 
   const changeTheme = () => {
     setIsDark(!isDark);
