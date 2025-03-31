@@ -225,7 +225,7 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/eyantra.webp"),
-      projectName: "e-yantra Robotics Competition 2024 -2025 Warehouse drone ",
+      projectName: "E-yantra Robotics Competition 2024 -2025 Warehouse drone ",
       projectDesc: "Gained hands-on experience in autonomous drone navigation for warehouse automation.Developed and optimized software for drone control, completing all software rounds successfully.Ranked in the top 45 among 800+ participants, showcasing problem-solving skills in ROS2,computer vision, and path planning.",
       footerLink: [
         {

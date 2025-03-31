@@ -10,17 +10,10 @@ export default function Footer() {
     <Fade bottom duration={1000} distance="5px">
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          {emoji("Bye Bye From Bargav 👋")}
+          {emoji("")}
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
-          Thank you for visiting  {" "}
-          <a
-            href="https://github.com/BargavanR"
-            target="_blank"
-            rel="noreferrer"
-          >
-          Bargavanroboticsengineer
-          </a>
+          Thank you for visiting 
         </p>
       </div>
     </Fade>
