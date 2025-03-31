@@ -51,17 +51,35 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Skills !!",
-  subTitle: "CRAZY ROBOTICS ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Programming",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Simulation stufsssss"
+      "⚡Python, C/Embedded C, Object-Oriented Programming (OOP), Robot Operating System (ROS2),PLC Programming (Ladder Logic), Computer Vision (OpenCV), MATLAB Programming, SLAM (SimultaneousLocalization and Mapping)."
     ),
-    emoji("⚡ BLAhh blahh "),
-    emoji(
-      "⚡ Integration of third party services such as omniverse, ROS, Gazebo, etc"
-    )
   ],
-
+  subTitle: "Simulation Tools",
+  skills: [
+    emoji(
+      "⚡Gazebo Classic & Ignition Gazebo, RViz, Simulink, Tinkercad."
+    ),
+  ],
+  subTitle: "Design & Analysis Tools",
+  skills: [
+    emoji(
+      "⚡SolidWorks (Modeling & Simulation), PCB Design (EasyEDA, KiCAD), Human-MachineInterface in PLC (HMI) Design ."
+    ),
+  ],
+  subTitle: "Artificial Intelligence",
+  skills: [
+    emoji(
+      "⚡Machine Learning (Supervised, Unsupervised, Reinforcement Learning)."
+    ),
+  ],
+  subTitle : "Operating Systems:",
+  skills :[
+    emoji("⚡Linux (Primary)."),
+    emoji("⚡Windows (Secondary)."),
+  ],
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
@@ -174,10 +192,10 @@ const bigProjects = {
     {
       image: require("./assets/images/isro.webp"),
       projectName: "ISRO Robotic Challenge - URSC 2025",
-      projectDesc: "Currently developing autonomous navigation and guidance techniques for an aerial vehicle on Marswithout external aids like GNSS. Focusing on space exploration applications.",
+      projectDesc: "Currently developing autonomous navigation and guidance techniques for an aerial vehicle on Mars without external aids like GNSS. Focusing on space exploration applications.",
       footerLink: [
         {
-          //name: "Visit Github",
+          name: "Visit Github",
          // url: ""
         }
       ]
@@ -188,7 +206,7 @@ const bigProjects = {
       projectDesc: "Designed a neural network model to predict drug’s efficiency and reduce trial durations.Achieved improved prediction accuracy by fine-tuning hyperparameters.Analyzed drug compounds to accelerate discovery timelines.",
       footerLink: [
         {
-          //name: "Visit Github",
+          name: "Visit Github",
          // url: ""
         }
       ]
@@ -214,59 +232,77 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "NSS Award 2024-2025",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+        "Awarded Best Student Volunteer of the Year 2024-2025.",
+      image: require("./assets/images/nss.webp"),
+      imageAlt: "NSS Logo",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+         // name: "",
+          //url: ""
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "MIT Variety Team",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+        "Performer in the Official Cultural Club of Madras Institute of Technology, Anna University.",
+      image: require("./assets/images/variety.webp"),
+      imageAlt: "MIT Variety Team Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          //name: "",
+          //url: ""
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
+      title: "Indutrial Automation with PLC & HMI ",
+      subtitle: "Completed Certifcation from Siemens for Indutrial Automation with PLC & HMI",
+      image: require("./assets/images/siemens.webp"),
+      imageAlt: "Siemens Logo",
+      footerLink: [
+        { name: "Certification", url: "https://www.linkedin.com/posts/bargavan_industrialautomation-plc-hmi-activity-7243337842087657472-ezX-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEaAYFgBmKXW9VIKxA-wGM-4-VQsamq2fYE" },
+        {
+          name: "Final Project",
+          url: ""
+        }
+      ]
+    },
+    {
+      title: "Learn to Program: The Fundamentals",
+      subtitle: "Completed Certifcation from Coursera for Learn to Program: The Fundamentals",
+      image: require("./assets/images/Coursera.webp"),
+      imageAlt: "Cousera Logo",
+      footerLink: [
+        { name: "Certification", url: "https://www.coursera.org/account/accomplishments/verify/BG2MPGE7IKFC?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" },
+        {
+          //name: "Final Project",
+          //url: ""
+        }
+      ]
+    },
+    {
+      title: "Supervised Machine Learning: Regression and Classification",
+      subtitle: "Completed Certifcation from Coursera for Supervised Machine Learning: Regression and Classification",
+      image: require("./assets/images/Coursera.webp"),
+      imageAlt: "Cousera Logo",
       footerLink: [
         { name: "Certification", url: "" },
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          //name: "Final Project",
+          //url: ""
         }
       ]
-    }
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true// Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -274,20 +310,14 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    ".",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "",
+      title: "",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        ""
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -296,17 +326,17 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    ""
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "",
+      subtitle: "",
+      slides_url: "",
+      event_url: ""
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -316,11 +346,11 @@ const talkSection = {
 
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+  subtitle: "",
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    ""
   ],
   display: false // Set false to hide this section, defaults to true
 };
