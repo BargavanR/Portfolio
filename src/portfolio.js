@@ -36,8 +36,8 @@ const socialMediaLinks = {
   github: "https://github.com/BargavanR",
   linkedin: "https://www.linkedin.com/in/bargavan",
   gmail: "bargavanroboticsengineer@gmail.com",
-  //gitlab: "https://gitlab.com/saadpasta",
-  //facebook: "https://www.facebook.com/saad.pasta7",
+  //gitlab: "",
+  //facebook: "",
   medium: "https://medium.com/@bargavanroboticsengineer",
   stackoverflow: "https://stackoverflow.com/users/29858058/bargavanr",
   Instagram: 'https://www.instagram.com/__godse._.devil__',
@@ -50,7 +50,7 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
+  title: "Skills !!",
   subTitle: "CRAZY ROBOTICS ENGINEER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
@@ -66,50 +66,7 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    /* //{
-      // skillName: "html-5",
-       //fontAwesomeClassname: "fa-solid fa-user-robot"
-     //},
-     {
-       skillName: "css3",
-       fontAwesomeClassname: "fab fa-css3-alt"
-     },
-     {
-       skillName: "sass",
-       fontAwesomeClassname: "fab fa-sass"
-     },
-     {
-       skillName: "JavaScript",
-       fontAwesomeClassname: "fab fa-js"
-     },
-     {
-       skillName: "reactjs",
-       fontAwesomeClassname: "fab fa-react"
-     },
-     {
-       skillName: "nodejs",
-       fontAwesomeClassname: "fab fa-node"
-     },
-     {
-       skillName: "swift",
-       fontAwesomeClassname: "fab fa-swift"
-     },
-     {
-       skillName: "npm",
-       fontAwesomeClassname: "fab fa-npm"
-     },
-     {
-       skillName: "sql-database",
-       fontAwesomeClassname: "fas fa-database"
-     },
-     {
-       skillName: "aws",
-       fontAwesomeClassname: "fab fa-aws"
-     },
-     {
-       skillName: "firebase",
-       fontAwesomeClassname: "fas fa-fire"
-     },
+    /*
      {
        skillName: "python",
        fontAwesomeClassname: "fab fa-python"
@@ -119,29 +76,8 @@ https://fontawesome.com/icons?d=gallery */
        fontAwesomeClassname: "fab fa-docker"
      }
    */
-    {
-      skillName: "C",
-      fontAwesomeClassname: "fa-solid fa-c"
-    },
-    {
-      skillName: "Python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "ROS",
-      fontAwesomeClassname: "fab fa-robot"
-    },
-    {
-      skillName: "MATLAB",
-      fontAwesomeClassname: "fab fa-matlab"
-    },
-    {
-      skillName: "Computer aided design",
-      fontAwesomeClassname: "fab fa-solid fa-user-robot"
-    },
-
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -214,7 +150,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -403,7 +339,7 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
    //number: "+91-6374289565",
-  email_address: "bargavanroboticsengineer@gmail.com",
+  //email_address: "bargavanroboticsengineer@gmail.com",
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -411,7 +347,7 @@ const contactInfo = {
 
 const twitterDetails = {
   userName: "Bargavan143", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  display: true // Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
