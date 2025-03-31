@@ -121,7 +121,7 @@ https://fontawesome.com/icons?d=gallery */
    */
     {
       skillName: "C",
-      fontAwesomeClassname: "fab fa-c"
+      fontAwesomeClassname: "fa-solid fa-c"
     },
     {
       skillName: "Python",
@@ -141,7 +141,7 @@ https://fontawesome.com/icons?d=gallery */
     },
 
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -195,32 +195,16 @@ const techStack = {
 // Work experience section
 
 const workExperiences = {
-  display: false, //Set it to true to show workExperiences Section
+  display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Machine Learning intern",
+      company: "Unified mentor",
+      companylogo: require("./assets/images/unified_mentor.png"),
+      date: "Feb 2025 – Mar 2025",
+      desc: "Developed a heart disease detection model using supervised learning techniques. Analyzedpatient data to enhance predictive accuracy and improve early diagnosis.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
       ]
-    },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     }
   ]
 };
@@ -236,34 +220,56 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/eyantra.webp"),
+      projectName: "e-yantra Robotics Competition 2024 -2025 Warehouse drone ",
+      projectDesc: "Gained hands-on experience in autonomous drone navigation for warehouse automation.Developed and optimized software for drone control, completing all software rounds successfully.Ranked in the top 45 among 800+ participants, showcasing problem-solving skills in ROS2,computer vision, and path planning.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Github",
+          url: "https://github.com/BargavanR/e-yantra_WD/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/isro.webp"),
+      projectName: "ISRO Robotic Challenge - URSC 2025",
+      projectDesc: "Currently developing autonomous navigation and guidance techniques for an aerial vehicle on Marswithout external aids like GNSS. Focusing on space exploration applications.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          //name: "Visit Github",
+         // url: ""
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/gdg.webp"),
+      projectName: "AI-Driven Accelerating Drug Discovery",
+      projectDesc: "Designed a neural network model to predict drug’s efficiency and reduce trial durations.Achieved improved prediction accuracy by fine-tuning hyperparameters.Analyzed drug compounds to accelerate discovery timelines.",
+      footerLink: [
+        {
+          //name: "Visit Github",
+         // url: ""
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/adn.webp"),
+      projectName: "Autonomous Drone Navigation",
+      projectDesc: "Developed a drone navigation system using Reinforcement Learning (PPO), enabling thedrone to autonomously navigate between multiple points.Optimized the model for obstacle avoidance and efficient pathfinding without using ROS.",
+      footerLink: [
+        {
+          name: "Visit Github",
+          url: "https://github.com/BargavanR/Autonomous-Drone-Navigation"
         }
       ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
