@@ -1,4 +1,4 @@
-# 🚀 Bargavan Raghuraman | Developer Portfolio
+# 🚀 Bargavan Raghuraman | Portfolio
 
 Welcome to the source code of my personal portfolio website — a modern, responsive, and professional showcase of my skills, projects, and achievements.
 
