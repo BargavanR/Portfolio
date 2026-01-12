@@ -160,12 +160,13 @@ const workExperiences = {
       ]
     },
     {
-      role: "Programming and Electronics Team Member",
-      company: "MITRA",
-      companylogo: require("./assets/images/mitra.png"),
-      date: "Sep 2024 - Present",
-      desc: "Madras Institute of Technology Robotics Association",
+      role: "COMPUTER AIDED DESIGN INTERN",
+      company: "Karthikesh Robotics Pvt. Ltd",
+      companylogo: require("./assets/images/karthikesh_robotics_logo.png"),
+      date: "Chennai, IN July 2025 – Aug 2025",
+      desc: "Collaborated with cross-functional teams to translate design concepts into working models",
       descBullets: [
+        "Applied Skills: CAD, SolidWorks, Mechanical Design, Team Collaboration."
       ]
     },
     {
@@ -176,17 +177,17 @@ const workExperiences = {
       desc: "Madras Institute of Technology Robotics Association",
       descBullets: [
       ]
-    },
-
-    {
-      role: "Machine Learning intern",
-      company: "Unified mentor",
-      companylogo: require("./assets/images/unified_mentor.png"),
-      date: "Feb 2025 – Mar 2025",
-      desc: "Developed a heart disease detection model using supervised learning techniques. Analyzedpatient data to enhance predictive accuracy and improve early diagnosis.",
-      descBullets: [
-      ]
     }
+
+    // {
+    //   role: "Machine Learning intern",
+    //   company: "Unified mentor",
+    //   companylogo: require("./assets/images/unified_mentor.png"),
+    //   date: "Feb 2025 – Mar 2025",
+    //   desc: "Developed a heart disease detection model using supervised learning techniques. Analyzedpatient data to enhance predictive accuracy and improve early diagnosis.",
+    //   descBullets: [
+    //   ]
+    // }
   ]
 };
 
