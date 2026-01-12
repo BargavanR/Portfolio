@@ -245,7 +245,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/isro.webp"),
+      image: require("./assets/images/isro.png"),
       projectName: "ISRO Robotic Challenge - URSC 2025",
       projectDesc: "Currently developing autonomous navigation and guidance techniques for an aerial vehicle on Mars without external aids like GNSS. Focusing on space exploration applications.",
       footerLink: [
