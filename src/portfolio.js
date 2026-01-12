@@ -54,7 +54,7 @@ const skillsSection = {
   subTitle : "Key skills I specialize in",
   skills: [
     emoji("Programming & Development"),
-    emoji("⚡ Python, Embedded C, Object-Oriented Programming (OOP), ROS2"),
+    emoji("⚡ Python, Embedded C, C++, Object-Oriented Programming (OOP), ROS1/ROS2"),
     
     emoji("Robotics & Automation"),
     emoji("⚡ PLC Programming, SLAM, Computer Vision (OpenCV)"),
@@ -63,10 +63,10 @@ const skillsSection = {
     emoji("⚡ Gazebo, RViz, SolidWorks, PCB Design (EasyEDA, KiCAD)"),
     
     emoji("Artificial Intelligence"),
-    emoji("⚡ Machine Learning (Supervised, Unsupervised, RL)"),
+    emoji("⚡Basics of Machine Learning (Supervised, Unsupervised, RL)"),
     
     emoji("Operating Systems"),
-    emoji("⚡ Linux (Primary), Windows (Secondary)"),
+    emoji("⚡ Linux, Windows"),
   ],  
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
@@ -123,11 +123,11 @@ const techStack = {
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "3D Modelling",
+      Stack: "Power Electronics",
       progressPercentage: "70%"
     },
     {
-      Stack: "Machine learning",
+      Stack: "3D Modelling",
       progressPercentage: "60%"
     }
   ],
@@ -204,7 +204,34 @@ const openSource = {
 const bigProjects = {
   title: "Projects",
   subtitle: "",
-  projects: [
+  // 
+  // 
+  // 
+  projects: [ 
+    {
+      image: require("./assets/images/spider.png"),
+      projectName: "Spider 8-Leg Robot-ROS2 Humble & Ignition Fortress",
+      projectDesc: "A comprehensive ROS2-based simulation and control framework for an 8-legged spider robot with 24 degrees of freedom. Built on ROS 2 Humble (Ubuntu 22.04) and Ignition Gazebo Fortress, this project provides complete robot description, motion control, GUI interfaces, SLAM capabilities, and warehouse navigation demonstrations.",
+      footerLink: [
+        {
+          name: "Visit Github",
+          url: "https://github.com/BargavanR/spider_8leg_ros2_humble.git"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/cac.png"),
+      projectName: "Caterpillar Autonomy Challenge 2026",
+      projectDesc: "The competition evaluates the rover's ability to autonomously navigate, extract materials frmo the sand, and construct a berm by systematically depositing the excavated sand.",
+      footerLink: [
+        {
+          name: "Visit Github",
+          url: "https://github.com/BargavanR/Zenorak.git"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/eyantra.webp"),
       projectName: "E-yantra Robotics Competition 2024 -2025 Warehouse drone ",
