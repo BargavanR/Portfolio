@@ -239,7 +239,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Github",
-          url: "https://github.com/BargavanR/e-yantra_WD/"
+          url: "https://github.com/BargavanR/Warehouse_Drone_EYRC_2025_SIMULATION.git"
         }
         //  you can add extra buttons here.
       ]
@@ -251,7 +251,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Github",
-         // url: ""
+         url: "https://github.com/BargavanR/TEAM-SKYMONGERS-ISRO-Robotics-Challenge-IRoC-U-2025.git"
         }
       ]
     },
@@ -288,9 +288,22 @@ const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications and Some Cool Stuff that I have done !",
-
+// 
   achievementsCards: [
-    {
+      {
+        title: "TN Skills – Robot Systems Integration (RSI) ",
+        subtitle:
+          "TN Skills State Finalist and competed with teams from across Tamil Nadu, where I secured a Top 5 position in Robot Systems & Integration.",
+        image: require("./assets/images/fanuc.jpeg"),
+        imageAlt: "fanuc Logo",
+        footerLink: [
+        {
+            name: "Linkedin",
+            url: "https://www.linkedin.com/posts/fanuc-india-pvt-ltd_tngovt-tnsdc-skilldevelopment-activity-7409079953142706176-lz5U?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEaAYFgBmKXW9VIKxA-wGM-4-VQsamq2fYE/"
+          }
+        ]
+      },    
+      {
       title: "NSS Award 2024-2025",
       subtitle:
         "Awarded Best Student Volunteer of the Year 2024-2025.",
