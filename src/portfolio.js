@@ -140,6 +140,26 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Industrial Robotics Intern",
+      company: "Epson India Pvt. Ltd",
+      companylogo: require("./assets/images/mitra.png"),
+      date: "Bengaluru, IN Jun 2025 – July 2025",
+      desc: "Developed an Automated Vending Machine with robotic integration ,Performed HMI testing with force-sensor integration for robotic precision control.Designed LED inspection automation for quality assurance in production.",
+      descBullets: [
+        "Applied Skills: Industrial Robotics, HMI, Sensor Integration, Automation, Mechatronics, Testing , RC+ Simulation , 6 Axis and SCARA Robot Programming"
+      ]
+    },
+    {
+      role: "ROBOTICS & COMPUTER VISION INTERN",
+      company: "Astra Industrial Robotics",
+      companylogo: require("./assets/images/mitra.png"),
+      date: "Chennai, IN May 2025 – Jun 2025",
+      desc: "Developed a real-time hand-tracking algorithm for monitoring process adherence at Lucas TVS. Optimized vision-based monitoring to improve efficiency and reducemanual inspection.",
+      descBullets: [
+       " Applied Skills: Computer Vision, Python, OpenCV, Robotics, Real-Time Processing, Industrial Automation."
+      ]
+    },
+    {
       role: "Programming and Electronics Team Member",
       company: "MITRA",
       companylogo: require("./assets/images/mitra.png"),
@@ -148,6 +168,7 @@ const workExperiences = {
       descBullets: [
       ]
     },
+
     {
       role: "Machine Learning intern",
       company: "Unified mentor",
