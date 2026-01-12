@@ -168,6 +168,15 @@ const workExperiences = {
       descBullets: [
       ]
     },
+    {
+      role: "Competitive Robotics Team Co-Lead",
+      company: "MITRA",
+      companylogo: require("./assets/images/mitra.png"),
+      date: "Sep 2024 - Present",
+      desc: "Madras Institute of Technology Robotics Association",
+      descBullets: [
+      ]
+    },
 
     {
       role: "Machine Learning intern",
