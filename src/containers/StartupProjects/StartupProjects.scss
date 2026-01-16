@@ -82,6 +82,13 @@
   transition: 0.2s ease-in;
 }
 
+.project-subtitle {
+  margin-top: -2px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-weight: 600;
+}
+
 @media (max-width: 768px) {
   .project-subtitle {
     font-size: 16px;
