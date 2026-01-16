@@ -307,7 +307,7 @@ const achievementSection = {
       title: "NSS Award 2024-2025",
       subtitle:
         "Awarded Best Student Volunteer of the Year 2024-2025.",
-      image: require("./assets/images/nss.webp"),
+      image: require("./assets/images/nss.png"),
       imageAlt: "NSS Logo",
       footerLink: [
        {
