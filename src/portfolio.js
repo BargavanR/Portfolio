@@ -23,7 +23,7 @@ const greeting = {
   username: "Bargavan R",
   title: "Hi all, I'm Bargavan",
   subTitle: emoji(
-    "🚀  Passionate Robotics and Automation Engineer with expertise in real-time innovations, machine learning, Robotics, crafting impactful solutions in dynamic environments."
+    "🚀 Robotics and Automation Engineer skilled in Swarm Robotics, AI/ML, ROS2, SLAM, and Computer Vision, with experience in simulations, hardware integration, and autonomous systems"
   ),
   resumeLink:
     "https://annauniv0-my.sharepoint.com/:f:/g/personal/2023511001_student_annauniv_edu/EvocIJMVqX1JorjW5cmRXi4BxH0eWk9SMYPorLlm2v51_g?e=ieeve0", // Set to empty to hide the button
@@ -35,7 +35,7 @@ const greeting = {
 const socialMediaLinks = {
   github: "https://github.com/BargavanR",
   linkedin: "https://www.linkedin.com/in/bargavan",
-  gmail: "bargavanroboticsengineer@gmail.com",
+  gmail: "bargavanr01@gmail.com",
   //gitlab: "",
   //facebook: "",
   medium: "https://medium.com/@bargavanroboticsengineer",
