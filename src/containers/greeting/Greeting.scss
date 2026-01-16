@@ -58,20 +58,30 @@
   height: auto;
 }
 
+.greeting-image-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
 .greeting-image {
-  max-width: 100%;
+  width: 100%;
+  max-width: 500px;
   height: auto;
+  object-fit: contain;
   border: 3px solid $textColor;
-  border-radius: 15px;
-  padding: 15px;
+  border-radius: 20px;
+  padding: 20px;
   background: rgba(128, 90, 213, 0.05);
   transition: all 0.3s ease;
   box-shadow: 0 8px 25px rgba(128, 90, 213, 0.1);
+  box-sizing: border-box;
 }
 
 .greeting-image:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 35px rgba(128, 90, 213, 0.2);
+  transform: translateY(-8px);
+  box-shadow: 0 15px 40px rgba(128, 90, 213, 0.2);
   border-color: rgba(128, 90, 213, 0.8);
 }
 
