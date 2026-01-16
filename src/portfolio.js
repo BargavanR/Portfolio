@@ -21,7 +21,7 @@ const illustration = {
 
 const greeting = {
   username: "Bargavan R",
-  title: "Hi all, I'm Bargavan",
+  title: "Hi all, I'm Bargavan R",
   subTitle: emoji(
     "🚀 Robotics and Automation Engineer skilled in Swarm Robotics, AI/ML, ROS2, SLAM, and Computer Vision, with experience in simulations, hardware integration, and autonomous systems"
   ),
@@ -54,10 +54,10 @@ const skillsSection = {
   subTitle : "Key skills I specialize in",
   skills: [
     emoji("Programming & Development"),
-    emoji("⚡ Python, Embedded C, C++, Object-Oriented Programming (OOP), ROS1/ROS2"),
+    emoji("⚡ Python, Embedded C, C++, Object-Oriented Programming (OOP)"),
     
     emoji("Robotics & Automation"),
-    emoji("⚡ PLC Programming, SLAM, Computer Vision (OpenCV)"),
+    emoji("⚡ ROS1/ROS2 , PLC Programming, SLAM, Computer Vision (OpenCV)"),
     
     emoji("Simulation & Design"),
     emoji("⚡ Gazebo, RViz, SolidWorks, PCB Design (EasyEDA, KiCAD)"),
@@ -92,7 +92,7 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Madras institute of Technology",
+      schoolName: "Madras institute of Technology - Anna University",
       logo: require("./assets/images/mitlogo.png"),
       subHeader: "Bachelor of Engineering in Robotics and Automation",
       duration: "August 2023 - july 2027",
@@ -103,9 +103,9 @@ const educationInfo = {
      // ]
     },
     {
-      schoolName: "Annamalaiyaar matriculation higher secondary school",
+      schoolName: "Annamalaiyaar Matriculation Higher Secondary School",
       logo: require("./assets/images/Armhsslogo.png"),
-      subHeader: "High School",
+      subHeader: "Higher Secondary",
       duration: "july 2021 - May 2023",
       //desc: "Ranked top 1 in the Cutoff , Best outgoing student in the school",
       //descBullets: ["Cricketer", "Badmitton player"]
