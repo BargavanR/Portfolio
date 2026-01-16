@@ -233,7 +233,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/eyantra.jpeg"),
+      image: require("./assets/images/eyantra.png"),
       projectName: "E-yantra Robotics Competition 2024 -2025 Warehouse drone ",
       projectDesc: "Gained hands-on experience in autonomous drone navigation for warehouse automation.Developed and optimized software for drone control, completing all software rounds successfully.Ranked in the top 45 among 800+ participants, showcasing problem-solving skills in ROS2,computer vision, and path planning.",
       footerLink: [
@@ -256,7 +256,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/gdg.jpeg"),
+      image: require("./assets/images/gdg.png"),
       projectName: "AI-Driven Accelerating Drug Discovery",
       projectDesc: "Designed a neural network model to predict drug’s efficiency and reduce trial durations.Achieved improved prediction accuracy by fine-tuning hyperparameters.Analyzed drug compounds to accelerate discovery timelines.",
       footerLink: [
@@ -294,7 +294,7 @@ const achievementSection = {
         title: "TN Skills – Robot Systems Integration (RSI) ",
         subtitle:
           "TN Skills State Finalist and competed with teams from across Tamil Nadu, where I secured a Top 5 position in Robot Systems & Integration.",
-        image: require("./assets/images/fanuc.jpeg"),
+        image: require("./assets/images/fanuc.png"),
         imageAlt: "fanuc Logo",
         footerLink: [
         {
