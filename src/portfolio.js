@@ -23,7 +23,7 @@ const greeting = {
   username: "Bargavan R",
   title: "Hi all, I'm Bargavan",
   subTitle: emoji(
-    "🚀  Passionate Robotics and Automation Engineer with expertise in real-time innovations, machine learning, Robotics, crafting impactful solutions in dynamic environments.."
+    "🚀  Passionate Robotics and Automation Engineer with expertise in real-time innovations, machine learning, Robotics, crafting impactful solutions in dynamic environments."
   ),
   resumeLink:
     "https://annauniv0-my.sharepoint.com/:f:/g/personal/2023511001_student_annauniv_edu/EvocIJMVqX1JorjW5cmRXi4BxH0eWk9SMYPorLlm2v51_g?e=ieeve0", // Set to empty to hide the button
