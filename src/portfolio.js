@@ -233,7 +233,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/eyantra.webp"),
+      image: require("./assets/images/eyantra.jpeg"),
       projectName: "E-yantra Robotics Competition 2024 -2025 Warehouse drone ",
       projectDesc: "Gained hands-on experience in autonomous drone navigation for warehouse automation.Developed and optimized software for drone control, completing all software rounds successfully.Ranked in the top 45 among 800+ participants, showcasing problem-solving skills in ROS2,computer vision, and path planning.",
       footerLink: [
@@ -256,7 +256,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/gdg.webp"),
+      image: require("./assets/images/gdg.jpeg"),
       projectName: "AI-Driven Accelerating Drug Discovery",
       projectDesc: "Designed a neural network model to predict drug’s efficiency and reduce trial durations.Achieved improved prediction accuracy by fine-tuning hyperparameters.Analyzed drug compounds to accelerate discovery timelines.",
       footerLink: [
@@ -267,7 +267,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/adn.webp"),
+      image: require("./assets/images/adn.png"),
       projectName: "Autonomous Drone Navigation",
       projectDesc: "Developed a drone navigation system using Reinforcement Learning (PPO), enabling thedrone to autonomously navigate between multiple points.Optimized the model for obstacle avoidance and efficient pathfinding without using ROS.",
       footerLink: [
