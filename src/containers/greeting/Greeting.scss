@@ -15,14 +15,7 @@
 
 .greeting-main {
   display: flex;
-}
-
-.subTitle {
-  color: $subTitle !important;
-}
-
-.greeting-main {
-  display: flex;
+  align-items: center;
 }
 
 .greeting-main > * {
@@ -140,10 +133,17 @@
     text-align: center;
   }
   .greeting-main {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .greeting-image-div {
-    height: 256px;
+    width: 100%;
+    margin-top: 40px;
+  }
+  .greeting-image {
+    max-width: 100%;
+    width: 100%;
   }
 }
 
