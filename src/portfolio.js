@@ -320,7 +320,7 @@ const achievementSection = {
       title: "MIT Variety Team",
       subtitle:
         "Performer in the Official Cultural Club of Madras Institute of Technology, Anna University.",
-      image: require("./assets/images/variety.webp"),
+      image: require("./assets/images/variety.png"),
       imageAlt: "MIT Variety Team Logo",
       footerLink: [
         {
