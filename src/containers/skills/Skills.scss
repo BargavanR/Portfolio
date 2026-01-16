@@ -24,11 +24,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 300px;
 }
 
 .skills-image-div > img {
-  max-width: 100%;
+  max-width: 85%;
   height: auto;
+  max-height: 400px;
   transition: all 0.3s ease;
 }
 

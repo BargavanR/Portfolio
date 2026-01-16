@@ -56,12 +56,14 @@
   justify-content: center;
   align-items: center;
   width: 100%;
+  min-height: 280px;
 }
 
 .greeting-image {
   width: 100%;
-  max-width: 500px;
+  max-width: 450px;
   height: auto;
+  max-height: 450px;
   object-fit: contain;
   border-radius: 20px;
   padding: 20px;
