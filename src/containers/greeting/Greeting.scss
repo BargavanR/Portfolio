@@ -58,6 +58,23 @@
   height: auto;
 }
 
+.greeting-image {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid $textColor;
+  border-radius: 15px;
+  padding: 15px;
+  background: rgba(128, 90, 213, 0.05);
+  transition: all 0.3s ease;
+  box-shadow: 0 8px 25px rgba(128, 90, 213, 0.1);
+}
+
+.greeting-image:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(128, 90, 213, 0.2);
+  border-color: rgba(128, 90, 213, 0.8);
+}
+
 .wave-emoji {
   animation-duration: 1.8s;
   animation-iteration-count: infinite;
