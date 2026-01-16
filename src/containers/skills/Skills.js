@@ -12,6 +12,16 @@ export default function Skills() {
   if (!skillsSection.display) {
     return null;
   }
+
+  // Group skills in pairs (category, content)
+  const groupedSkills = [];
+  for (let i = 0; i < skillsSection.skills.length; i += 2) {
+    groupedSkills.push({
+      category: skillsSection.skills[i],
+      content: skillsSection.skills[i + 1] || ""
+    });
+  }
+
   return (
     <div className={isDark ? "dark-mode main" : "main"} id="skills">
       <div className="skills-main-div">
@@ -44,19 +54,24 @@ export default function Skills() {
               {skillsSection.subTitle}
             </p>
             <SoftwareSkill />
-            <div className="skills-cards-container">
-              {skillsSection.skills.map((skills, i) => {
+            <div className="skills-sections-container">
+              {groupedSkills.map((skillGroup, i) => {
                 return (
-                  <div key={i} className="skill-card">
-                    <p
-                      className={
-                        isDark
-                          ? "dark-mode subTitle skills-text"
-                          : "subTitle skills-text"
-                      }
-                    >
-                      {skills}
-                    </p>
+                  <div key={i} className="skill-section">
+                    <h3 className="skill-section-title">
+                      {skillGroup.category}
+                    </h3>
+                    <div className="skill-section-content">
+                      <p
+                        className={
+                          isDark
+                            ? "dark-mode subTitle skills-text"
+                            : "subTitle skills-text"
+                        }
+                      >
+                        {skillGroup.content}
+                      </p>
+                    </div>
                   </div>
                 );
               })}
