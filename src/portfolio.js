@@ -269,7 +269,7 @@ const bigProjects = {
     {
       image: require("./assets/images/gdg.png"),
       projectName: "AI-Driven Accelerating Drug Discovery",
-      projectDesc: "Designed a neural network model to predict drug’s efficiency and reduce trial durations.Achieved improved prediction accuracy by fine-tuning hyperparameters.Analyzed drug compounds to accelerate discovery timelines.",
+      projectDesc: "Designed a XGBOOST model to predict drug’s efficiency and reduce trial durations.Achieved improved prediction accuracy by fine-tuning hyperparameters.Analyzed drug compounds to accelerate discovery timelines.",
       footerLink: [
         {
           name: "Visit Github",
