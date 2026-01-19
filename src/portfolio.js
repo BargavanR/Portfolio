@@ -245,9 +245,20 @@ const bigProjects = {
       ]
     },
     {
+      image: require("./assets/images/quad.png"),
+      projectName: "Quadruped Robot",
+      projectDesc: "Design & Developed a low-cost, teleoperated quadruped robot for stable mobility on uneven terrains.Implemented inverse kinematics for precise gait control and coordinated leg movement.",
+      footerLink: [
+        {
+        //   name: "Visit Github",
+        //  url: "https://github.com/BargavanR/TEAM-SKYMONGERS-ISRO-Robotics-Challenge-IRoC-U-2025.git"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/isro.png"),
       projectName: "ISRO Robotic Challenge - URSC 2025",
-      projectDesc: "Currently developing autonomous navigation and guidance techniques for an aerial vehicle on Mars without external aids like GNSS. Focusing on space exploration applications.",
+      projectDesc: "Designed Drone for GPS-denied navigation in extraterrestrial missions. Aimed to map unknown terrains, detect safe landing zones, and ensure stability on rugged surfaces.",
       footerLink: [
         {
           name: "Visit Github",
@@ -262,7 +273,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Github",
-         // url: ""
+          url: "https://github.com/BargavanR/Drug_Analyser-GDG-2025.git"
         }
       ]
     },
