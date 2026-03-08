@@ -20,7 +20,7 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Bargavan R ",
+  username: "Bargavan R",
   title: "Hi all, I'm Bargavan R",
   subTitle: emoji(
     "🚀 Robotics and Automation Engineer skilled in Swarm Robotics, AI/ML, ROS2, SLAM, and Computer Vision, with experience in simulations, hardware integration, and autonomous systems"
