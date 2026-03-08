@@ -66,7 +66,7 @@ const skillsSection = {
     emoji("⚡Basics of Machine Learning (Supervised, Unsupervised, RL)"),
     
     emoji("Operating Systems"),
-    emoji("⚡ Linux, Windows"),
+    emoji("⚡ Linux, Windows "),
   ],  
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
