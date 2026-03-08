@@ -40,8 +40,8 @@ const socialMediaLinks = {
   //facebook: "",
   medium: "https://medium.com/@bargavanroboticsengineer",
   stackoverflow: "https://stackoverflow.com/users/29858058/bargavanr",
-  Instagram: 'https://www.instagram.com/__godse._.devil__',
-  twitter: 'https://x.com/Bargavan143',
+  Instagram: "https://www.instagram.com/__godse._.devil__",
+  twitter: "https://x.com/Bargavan143",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -51,23 +51,23 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "Skills !!",
-  subTitle : "Key skills I specialize in",
+  subTitle: "Key skills I specialize in",
   skills: [
     emoji("Programming & Development"),
     emoji("⚡ Python, Embedded C, C++, Object-Oriented Programming (OOP)"),
-    
+
     emoji("Robotics & Automation"),
     emoji("⚡ ROS1/ROS2 , PLC Programming, SLAM, Computer Vision (OpenCV)"),
-    
+
     emoji("Simulation & Design"),
     emoji("⚡ Gazebo, RViz, SolidWorks, PCB Design (EasyEDA, KiCAD)"),
-    
+
     emoji("Artificial Intelligence"),
     emoji("⚡Basics of Machine Learning (Supervised, Unsupervised, RL)"),
-    
+
     emoji("Operating Systems"),
-    emoji("⚡ Linux, Windows "),
-  ],  
+    emoji("⚡ Linux, Windows ")
+  ],
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
@@ -95,18 +95,18 @@ const educationInfo = {
       schoolName: "Madras institute of Technology - Anna University",
       logo: require("./assets/images/mitlogo.png"),
       subHeader: "Bachelor of Engineering in Robotics and Automation",
-      duration: "August 2023 - july 2027",
+      duration: "August 2023 - july 2027"
       //desc: "Participated in the Events and published 1 paper and 2 patents.",
       //descBullets: [
       //  "Experience in Automation",
       //  "ROS developer for MITRA"
-     // ]
+      // ]
     },
     {
       schoolName: "Annamalaiyaar Matriculation Higher Secondary School",
       logo: require("./assets/images/Armhsslogo.png"),
       subHeader: "Higher Secondary",
-      duration: "july 2021 - May 2023",
+      duration: "july 2021 - May 2023"
       //desc: "Ranked top 1 in the Cutoff , Best outgoing student in the school",
       //descBullets: ["Cricketer", "Badmitton player"]
     }
@@ -156,7 +156,7 @@ const workExperiences = {
       date: "Chennai, IN May 2025 – Jun 2025",
       desc: "Developed a real-time hand-tracking algorithm for monitoring process adherence at Lucas TVS. Optimized vision-based monitoring to improve efficiency and reducemanual inspection.",
       descBullets: [
-       " Applied Skills: Computer Vision, Python, OpenCV, Robotics, Real-Time Processing, Industrial Automation."
+        " Applied Skills: Computer Vision, Python, OpenCV, Robotics, Real-Time Processing, Industrial Automation."
       ]
     },
     {
@@ -175,8 +175,7 @@ const workExperiences = {
       companylogo: require("./assets/images/mitra.png"),
       date: "Sep 2024 - Present",
       desc: "Madras Institute of Technology Robotics Association",
-      descBullets: [
-      ]
+      descBullets: []
     }
 
     // {
@@ -204,14 +203,15 @@ const openSource = {
 const bigProjects = {
   title: "Projects",
   subtitle: "",
-  // 
-  // 
-  // 
-  projects: [ 
+  //
+  //
+  //
+  projects: [
     {
       image: require("./assets/images/spider.png"),
       projectName: "Spider 8-Leg Robot-ROS2 Humble & Ignition Fortress",
-      projectDesc: "A comprehensive ROS2-based simulation and control framework for an 8-legged spider robot with 24 degrees of freedom. Built on ROS 2 Humble (Ubuntu 22.04) and Ignition Gazebo Fortress, this project provides complete robot description, motion control, GUI interfaces, SLAM capabilities, and warehouse navigation demonstrations.",
+      projectDesc:
+        "A comprehensive ROS2-based simulation and control framework for an 8-legged spider robot with 24 degrees of freedom. Built on ROS 2 Humble (Ubuntu 22.04) and Ignition Gazebo Fortress, this project provides complete robot description, motion control, GUI interfaces, SLAM capabilities, and warehouse navigation demonstrations.",
       footerLink: [
         {
           name: "Visit Github",
@@ -223,7 +223,8 @@ const bigProjects = {
     {
       image: require("./assets/images/cac.png"),
       projectName: "Caterpillar Autonomy Challenge 2026",
-      projectDesc: "The competition evaluates the rover's ability to autonomously navigate, extract materials frmo the sand, and construct a berm by systematically depositing the excavated sand.",
+      projectDesc:
+        "The competition evaluates the rover's ability to autonomously navigate, extract materials frmo the sand, and construct a berm by systematically depositing the excavated sand.",
       footerLink: [
         {
           name: "Visit Github",
@@ -235,7 +236,8 @@ const bigProjects = {
     {
       image: require("./assets/images/eyantra.png"),
       projectName: "E-yantra Robotics Competition 2024 -2025 Warehouse drone ",
-      projectDesc: "Gained hands-on experience in autonomous drone navigation for warehouse automation.Developed and optimized software for drone control, completing all software rounds successfully.Ranked in the top 45 among 800+ participants, showcasing problem-solving skills in ROS2,computer vision, and path planning.",
+      projectDesc:
+        "Gained hands-on experience in autonomous drone navigation for warehouse automation.Developed and optimized software for drone control, completing all software rounds successfully.Ranked in the top 45 among 800+ participants, showcasing problem-solving skills in ROS2,computer vision, and path planning.",
       footerLink: [
         {
           name: "Visit Github",
@@ -247,29 +249,32 @@ const bigProjects = {
     {
       image: require("./assets/images/quad.png"),
       projectName: "Quadruped Robot",
-      projectDesc: "Design & Developed a low-cost, teleoperated quadruped robot for stable mobility on uneven terrains.Implemented inverse kinematics for precise gait control and coordinated leg movement.",
+      projectDesc:
+        "Design & Developed a low-cost, teleoperated quadruped robot for stable mobility on uneven terrains.Implemented inverse kinematics for precise gait control and coordinated leg movement.",
       footerLink: [
         {
-        //   name: "Visit Github",
-        //  url: "https://github.com/BargavanR/TEAM-SKYMONGERS-ISRO-Robotics-Challenge-IRoC-U-2025.git"
+          //   name: "Visit Github",
+          //  url: "https://github.com/BargavanR/TEAM-SKYMONGERS-ISRO-Robotics-Challenge-IRoC-U-2025.git"
         }
       ]
     },
     {
       image: require("./assets/images/isro.png"),
       projectName: "ISRO Robotic Challenge - URSC 2025",
-      projectDesc: "Designed Drone for GPS-denied navigation in extraterrestrial missions. Aimed to map unknown terrains, detect safe landing zones, and ensure stability on rugged surfaces.",
+      projectDesc:
+        "Designed Drone for GPS-denied navigation in extraterrestrial missions. Aimed to map unknown terrains, detect safe landing zones, and ensure stability on rugged surfaces.",
       footerLink: [
         {
           name: "Visit Github",
-         url: "https://github.com/BargavanR/TEAM-SKYMONGERS-ISRO-Robotics-Challenge-IRoC-U-2025.git"
+          url: "https://github.com/BargavanR/TEAM-SKYMONGERS-ISRO-Robotics-Challenge-IRoC-U-2025.git"
         }
       ]
     },
     {
       image: require("./assets/images/gdg.png"),
       projectName: "AI-Driven Accelerating Drug Discovery",
-      projectDesc: "Designed a XGBOOST model to predict drug’s efficiency and reduce trial durations.Achieved improved prediction accuracy by fine-tuning hyperparameters.Analyzed drug compounds to accelerate discovery timelines.",
+      projectDesc:
+        "Designed a XGBOOST model to predict drug’s efficiency and reduce trial durations.Achieved improved prediction accuracy by fine-tuning hyperparameters.Analyzed drug compounds to accelerate discovery timelines.",
       footerLink: [
         {
           name: "Visit Github",
@@ -280,7 +285,8 @@ const bigProjects = {
     {
       image: require("./assets/images/adn.png"),
       projectName: "Autonomous Drone Navigation",
-      projectDesc: "Developed a drone navigation system using Reinforcement Learning (PPO), enabling thedrone to autonomously navigate between multiple points.Optimized the model for obstacle avoidance and efficient pathfinding without using ROS.",
+      projectDesc:
+        "Developed a drone navigation system using Reinforcement Learning (PPO), enabling thedrone to autonomously navigate between multiple points.Optimized the model for obstacle avoidance and efficient pathfinding without using ROS.",
       footerLink: [
         {
           name: "Visit Github",
@@ -299,29 +305,28 @@ const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
     "Achievements, Certifications and Some Cool Stuff that I have done !",
-// 
+  //
   achievementsCards: [
-      {
-        title: "TN Skills – Robot Systems Integration (RSI) ",
-        subtitle:
-          "TN Skills State Finalist and competed with teams from across Tamil Nadu, where I secured a Top 5 position in Robot Systems & Integration.",
-        image: require("./assets/images/fanuc.png"),
-        imageAlt: "fanuc Logo",
-        footerLink: [
-        {
-            name: "Linkedin",
-            url: "https://www.linkedin.com/posts/fanuc-india-pvt-ltd_tngovt-tnsdc-skilldevelopment-activity-7409079953142706176-lz5U?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEaAYFgBmKXW9VIKxA-wGM-4-VQsamq2fYE/"
-          }
-        ]
-      },    
-      {
-      title: "NSS Award 2024-2025",
+    {
+      title: "TN Skills – Robot Systems Integration (RSI) ",
       subtitle:
-        "Awarded Best Student Volunteer of the Year 2024-2025.",
+        "TN Skills State Finalist and competed with teams from across Tamil Nadu, where I secured a Top 5 position in Robot Systems & Integration.",
+      image: require("./assets/images/fanuc.png"),
+      imageAlt: "fanuc Logo",
+      footerLink: [
+        {
+          name: "Linkedin",
+          url: "https://www.linkedin.com/posts/fanuc-india-pvt-ltd_tngovt-tnsdc-skilldevelopment-activity-7409079953142706176-lz5U?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEaAYFgBmKXW9VIKxA-wGM-4-VQsamq2fYE/"
+        }
+      ]
+    },
+    {
+      title: "NSS Award 2024-2025",
+      subtitle: "Awarded Best Student Volunteer of the Year 2024-2025.",
       image: require("./assets/images/nss.png"),
       imageAlt: "NSS Logo",
       footerLink: [
-       {
+        {
           name: "Instagram",
           url: "https://www.instagram.com/nss_mit/"
         }
@@ -342,48 +347,53 @@ const achievementSection = {
     },
     {
       title: "Indutrial Automation with PLC & HMI ",
-      subtitle: "Completed Certifcation from Siemens for Indutrial Automation with PLC & HMI",
+      subtitle:
+        "Completed Certifcation from Siemens for Indutrial Automation with PLC & HMI",
       image: require("./assets/images/siemens.webp"),
       imageAlt: "Siemens Logo",
       footerLink: [
-        { name: "Certification", url: "https://www.linkedin.com/posts/bargavan_industrialautomation-plc-hmi-activity-7243337842087657472-ezX-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEaAYFgBmKXW9VIKxA-wGM-4-VQsamq2fYE" },
+        {
+          name: "Certification",
+          url: "https://www.linkedin.com/posts/bargavan_industrialautomation-plc-hmi-activity-7243337842087657472-ezX-?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEaAYFgBmKXW9VIKxA-wGM-4-VQsamq2fYE"
+        }
       ]
     },
     {
       title: "Learn to Program: The Fundamentals",
-      subtitle: "Completed Certifcation from Coursera for Learn to Program: The Fundamentals",
+      subtitle:
+        "Completed Certifcation from Coursera for Learn to Program: The Fundamentals",
       image: require("./assets/images/Coursera.webp"),
       imageAlt: "Cousera Logo",
       footerLink: [
-        { name: "Certification", url: "https://www.coursera.org/account/accomplishments/verify/BG2MPGE7IKFC?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course" },
+        {
+          name: "Certification",
+          url: "https://www.coursera.org/account/accomplishments/verify/BG2MPGE7IKFC?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+        }
       ]
     },
     {
       title: "Supervised Machine Learning: Regression and Classification",
-      subtitle: "Completed Certifcation from Coursera for Supervised Machine Learning: Regression and Classification",
+      subtitle:
+        "Completed Certifcation from Coursera for Supervised Machine Learning: Regression and Classification",
       image: require("./assets/images/Coursera.webp"),
       imageAlt: "Cousera Logo",
-      footerLink: [
-        { name: "Certification", url: "" },
-      ]
-    },
+      footerLink: [{name: "Certification", url: ""}]
+    }
   ],
-  display: true// Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
 
 const blogSection = {
   title: "Blogs",
-  subtitle:
-    ".",
+  subtitle: ".",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
       url: "",
       title: "",
-      description:
-        ""
+      description: ""
     }
   ],
   display: false // Set false to hide this section, defaults to true
@@ -393,9 +403,7 @@ const blogSection = {
 
 const talkSection = {
   title: "",
-  subtitle: emoji(
-    ""
-  ),
+  subtitle: emoji(""),
 
   talks: [
     {
@@ -415,9 +423,7 @@ const podcastSection = {
   subtitle: "",
 
   // Please Provide with Your Podcast embeded Link
-  podcast: [
-    ""
-  ],
+  podcast: [""],
   display: false // Set false to hide this section, defaults to true
 };
 
@@ -434,9 +440,9 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-   //number: "+91-6374289565",
-    email_address: "bargavanr01@gmail.com",
-   display : true// Set false to hide this section, defaults to true
+  //number: "+91-6374289565",
+  email_address: "bargavanr01@gmail.com",
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Twitter Section
