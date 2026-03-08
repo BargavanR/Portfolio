@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.10bd75d3.css",
+    "main.js": "/Portfolio/static/js/main.a5b24147.js",
+    "static/css/64.bba8fa55.chunk.css": "/Portfolio/static/css/64.bba8fa55.chunk.css",
+    "static/js/64.539dbaf7.chunk.js": "/Portfolio/static/js/64.539dbaf7.chunk.js",
+    "static/css/769.b3cbb36b.chunk.css": "/Portfolio/static/css/769.b3cbb36b.chunk.css",
+    "static/js/769.baccf17e.chunk.js": "/Portfolio/static/js/769.baccf17e.chunk.js",
+    "static/media/variety.png": "/Portfolio/static/media/variety.d8fd0b88d92b7bb90bce.png",
+    "static/media/nss.png": "/Portfolio/static/media/nss.58b311734d99dc0017dc.png",
+    "static/media/cac.png": "/Portfolio/static/media/cac.36b2275a1b646d56eee9.png",
+    "static/media/eyantra.png": "/Portfolio/static/media/eyantra.465641fe388d7aa335fe.png",
+    "static/media/adn.png": "/Portfolio/static/media/adn.a0267c59cf208e20cee6.png",
+    "static/media/spider.png": "/Portfolio/static/media/spider.12400e49818f86f6ed5c.png",
+    "static/media/fanuc.png": "/Portfolio/static/media/fanuc.d5409c3041da85da835a.png",
+    "static/media/Montserrat-Regular.ttf": "/Portfolio/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
+    "static/media/isro.png": "/Portfolio/static/media/isro.bb85230f38c5f2a28ab6.png",
+    "static/media/landingRobot.png": "/Portfolio/static/media/landingRobot.0d1dd4f04a069823569f.png",
+    "static/media/quad.png": "/Portfolio/static/media/quad.28c983ca94500389b73a.png",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.de8a5696f1b83c8f01ba.pdf",
+    "static/media/Agustina.woff": "/Portfolio/static/media/Agustina.eb0c59dda4cc308cba96.woff",
+    "static/media/gdg.png": "/Portfolio/static/media/gdg.786a09f8880c0f3270e7.png",
+    "static/media/siemens.webp": "/Portfolio/static/media/siemens.cf6429c8485858619c46.webp",
+    "static/media/contactMailDark.svg": "/Portfolio/static/media/contactMailDark.1db650d351729a0f17b4e3104e6a7b7a.svg",
+    "static/media/developerActivity.svg": "/Portfolio/static/media/developerActivity.2c0445cae86f4243433a2f5a22b2c031.svg",
+    "static/media/Coursera.webp": "/Portfolio/static/media/Coursera.16fc3d0e30de8c9d2c08.webp",
+    "static/media/Armhsslogo.png": "/Portfolio/static/media/Armhsslogo.0969e66884fbe9cb828f.png",
+    "static/media/mitlogo.png": "/Portfolio/static/media/mitlogo.0e12a577e6863d5fb0d5.png",
+    "static/media/skill.svg": "/Portfolio/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
+    "index.html": "/Portfolio/index.html",
+    "static/media/talksCardBack.svg": "/Portfolio/static/media/talksCardBack.73ed1545d58273ba64b0.svg",
+    "main.10bd75d3.css.map": "/Portfolio/static/css/main.10bd75d3.css.map",
+    "main.a5b24147.js.map": "/Portfolio/static/js/main.a5b24147.js.map",
+    "64.bba8fa55.chunk.css.map": "/Portfolio/static/css/64.bba8fa55.chunk.css.map",
+    "64.539dbaf7.chunk.js.map": "/Portfolio/static/js/64.539dbaf7.chunk.js.map",
+    "769.b3cbb36b.chunk.css.map": "/Portfolio/static/css/769.b3cbb36b.chunk.css.map",
+    "769.baccf17e.chunk.js.map": "/Portfolio/static/js/769.baccf17e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.10bd75d3.css",
+    "static/js/main.a5b24147.js"
+  ]
+}
