@@ -346,9 +346,9 @@ const achievementSection = {
       ]
     },
     {
-      title: "Indutrial Automation with PLC & HMI ",
+      title: "Industrial Automation with PLC & HMI ",
       subtitle:
-        "Completed Certifcation from Siemens for Indutrial Automation with PLC & HMI",
+        "Completed Certifcation from Siemens for Industrial Automation with PLC & HMI",
       image: require("./assets/images/siemens.webp"),
       imageAlt: "Siemens Logo",
       footerLink: [
