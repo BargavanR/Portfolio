@@ -307,6 +307,45 @@ const achievementSection = {
     "Achievements, Certifications and Some Cool Stuff that I have done !",
   //
   achievementsCards: [
+        {
+      title: "Inside the Machines 2026",
+      subtitle:
+        "I had the opportunity to be part of Inside the Machines 2026, a 2-day industrial exposure program that gave me a clear view of how engineering works beyond classrooms.",
+      image: require("./assets/images/cat_im.jpg"),
+      imageAlt: "Linkedin Logo",
+      footerLink: [
+        {
+          name: "Linkedin",
+          url: "https://www.linkedin.com/posts/bargavan_caterpillar-insidethemachines2026-engineering-share-7446461153196781568-jK4L?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEaAYFgBmKXW9VIKxA-wGM-4-VQsamq2fYE"
+        }
+      ]
+    },
+    {
+      title: "First Prize at COM-BUSTED 2K26 – Project Expo",
+      subtitle:
+        "Team Zenorak , Secured 🥇 First Place at the Project Expo – COM-BUSTED 2K26, organized by the Department of Mechanical Engineering, VISTAS, Pallavaram.",
+      image: require("./assets/images/vels_prize.jpg"),
+      imageAlt: "Linkedin Logo",
+      footerLink: [
+        {
+          name: "Linkedin",
+          url: "https://www.linkedin.com/posts/bargavan_engineering-innovation-projectexpo-ugcPost-7444728081564483584-w7lt?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEaAYFgBmKXW9VIKxA-wGM-4-VQsamq2fYE"
+        }
+      ]
+    },
+      {
+      title: "Outstanding performance at TitaniumFest 2026 ",
+      subtitle:
+        "Team Zenorak , Won multiple competitions and secured 1st prize in more than four events",
+      image: require("./assets/images/rec_zenorak.jpg"),
+      imageAlt: "Linkedin Logo",
+      footerLink: [
+        {
+          name: "Linkedin",
+          url: "https://www.linkedin.com/posts/dr-jancirani-j-5b7b6267_congratulations-to-the-3rd-year-robotics-share-7430603214384959488-F6up?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAAEaAYFgBmKXW9VIKxA-wGM-4-VQsamq2fYE"
+        }
+      ]
+    },
     {
       title: "TN Skills – Robot Systems Integration (RSI) ",
       subtitle:
