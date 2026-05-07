@@ -1,7 +1,8 @@
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
-
+//npm  run deploy then npm run build
+//
 import emoji from "react-easy-emoji";
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
@@ -337,7 +338,7 @@ const achievementSection = {
       title: "Outstanding performance at TitaniumFest 2026 ",
       subtitle:
         "Team Zenorak , Won multiple competitions and secured 1st prize in more than four events",
-      image: require("./assets/images/rec_zenorak.jpg"),
+      image: require("./assets/images/rec_zenorak.png"),
       imageAlt: "Linkedin Logo",
       footerLink: [
         {
